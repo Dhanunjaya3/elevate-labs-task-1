@@ -1,0 +1,49 @@
+.header{
+    margin-top: 10px;
+    background-color: linen;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.nav_links{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 100px;
+    align-items: center;
+}
+.logo{
+    background-color: white;
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.footer{
+    margin-top: 10px;
+    background-color: linen;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.F_logo{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    top: 80px;
+    border: 1px solid black;
+}
+.F_logo .logo{
+    margin-top: 12px;
+}
+.footer section{
+    margin-left: 40px;
+}
+ul{
+    list-style: none;
+    line-height: 2;
+    font-weight: 600;
+}
